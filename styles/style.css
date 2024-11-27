@@ -54,6 +54,7 @@ nav ul{
 .nav-icons-container img{
     width: 30px;
     cursor: pointer;
+    margin-right: 60;
 }
 
 .nav-icons-container img:first-child{
@@ -506,6 +507,11 @@ nav {
     padding: 1.5rem;
     flex: 1 1 calc(33.333% - 1rem);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-5px);
 }
 
 .card h3 {
@@ -515,8 +521,14 @@ nav {
 }
 
 .card p {
-    color: #ccc;
+    color: #ffffff;
 }
+
+.separacao{
+    color: #ebebeb;
+}
+
+
 
 
 /* Responsividade */
@@ -530,3 +542,4 @@ nav {
         flex: 1 1 100%;
     }
 }
+
